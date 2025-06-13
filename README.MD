@@ -3,7 +3,7 @@
 
 **My projects / Мои проекты**
 
-🏙️[vkpmonbot urban monitoring system / vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf,rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
+🏙️[vkpmonbot urban monitoring system / vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
 
 ⚖️[LLM Integration for Legal Document Analysis / Интеграция LLM для анализа юридических документов (Kontur.Focus + GPT4All)](https://github.com/alfablend/vkpcourt).     
 
