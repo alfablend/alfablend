@@ -1,6 +1,10 @@
 # 🚀 Vadim Kuzmitckii/ Вадим Кузьмицкий  
 ### Python Backend & Data Engineer, Web Scraping Specialist / Разработчик Python и Data Engineer, специалист по сбору и обработке информации с сайтов
 
+Разрабатываю [vkpmonbot — систему мониторинга градостроительной документации Петербурга](https://github.com/alfablend/vkpmonbot/tree/main).
+
+Реализую [проекты выгрузки, анализа и визуализации данных](https://github.com/alfablend/alfablend.github.io).
+
 **Specialization / Специализация:**  
 ETL processes, API integrations, data analysis / ETL-процессы, API-интеграции, анализ данных  
 
@@ -12,9 +16,9 @@ Python, Pandas, SQL, Telegram Bot API
 
 ---
 
-## 🔥 **Problem Solved / Решение проблемы:**  
-"Automation of urban data collection and analysis"  
-"Автоматизация сбора и анализа данных"  
+## 🔥 **Problem Solved / Решение проблем:**  
+Automation of urban data collection and analysis / 
+Автоматизация сбора и анализа данных  
 
 **Key Features / Основные функции:**  
 - API data parsing / Парсинг данных через API   
