@@ -3,11 +3,9 @@
 
 **My projects / Мои проекты**
 
-🏙️ [ИИ-мониторинг историко-культурных экспертиз КГИОП (GPT4All API, BeautifulSoup, PyPDF, ocrmypdf)](https://github.com/alfablend/gike/tree/main)
+🏙️ [ИИ-мониторинг градостроительной документации и судебных решений (GPT4All API, BeautifulSoup, PyPDF, ocrmypdf)](https://github.com/alfablend/spbmon/tree/main)
 
-🏙️ [vkpmonbot urban monitoring system / vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
-
-⚖️ [LLM Integration for Legal Document Analysis / Интеграция LLM для анализа юридических документов (Kontur.Focus + GPT4All)](https://github.com/alfablend/vkpcourt).     
+🏙️ [LEGACY vkpmonbot urban monitoring system / LEGACY vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
 
 📊 [Проекты визуализации данных](https://github.com/alfablend/alfablend.github.io).
 
