@@ -39,7 +39,7 @@
 
 ---
 
-## 📌 Кейсы прикладной аналитики (публикации)
+## 📌 Кейсы прикладной аналитики
 
 🧯 **В каких домах Петербурга чаще всего отключают горячую воду:** выгрузка графиков отключений с Теплосети и ТЭК и их анализ 
 → [Статья](https://www.dp.ru/a/2025/06/10/suhoj-zakon-kakie-doma-v) | [Код на GitHub](https://github.com/alfablend/data-engineering/tree/main/hot_water_outages)
@@ -90,7 +90,7 @@
 3. [Изъятие под ВСМ](https://www.dp.ru/a/2025/06/02/vnimaniju-vstrechajushhih-v-peterburge)  
 4. [Аварийные балконы](https://www.dp.ru/a/2025/05/21/opasnost-svishe-tisjachi-starih)  
 5. [Причалы и швартовки](https://www.dp.ru/a/2025/04/29/prichali-upetropavlovki-i)  
-6. [Анализ нового ПЗЗ](https://www.dp.ru/a/2025/04/19/iskazhaet-sredu-v-centre 
+6. [Анализ нового ПЗЗ](https://www.dp.ru/a/2025/04/19/iskazhaet-sredu-v-centre) 
 7. [Товарные знаки компаний](https://www.dp.ru/a/2025/04/15/v-peterburge-chashhe-vsego-registrirujut)  
 8. [Трекинг техники (WebSocket)](https://www.dp.ru/a/2025/03/31/litri-na-kilometri-kak-chistjat)  
 9. [Капремонт — 20 000 HTML-отчётов](https://www.dp.ru/a/2025/03/17/bolshuju-chast-dolgov-za-kapremont)  
