@@ -1,84 +1,109 @@
-# 🚀 Vadim Kuzmitckii/ Вадим Кузьмицкий  
-### Python Backend & Data Engineer, Web Scraping Specialist / Разработчик Python и Data Engineer, специалист по сбору и обработке информации с сайтов
+# 🚀 Vadim Kuzmitskiy — Python-разработчик и инженер данных
 
-**My projects / Мои проекты**
+Пишу код, который читает город. Разрабатываю решения для извлечения, нормализации и анализа открытых данных: от градостроительных планов до судебных решений. Публиковался в «Деловом Петербурге» и на Хабре.
 
-🏙️ [ИИ-мониторинг градостроительной документации и судебных решений (GPT4All API, BeautifulSoup, PyPDF, ocrmypdf)](https://github.com/alfablend/spbmon/tree/main)
-
-🏙️ [vkpmonbot urban monitoring system / vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
-
-📊 [Проекты визуализации данных](https://github.com/alfablend/alfablend.github.io).
-
-**Specialization / Специализация:**  
-ETL processes, API integrations, data analysis / ETL-процессы, API-интеграции, анализ данных  
-
-**Core Technologies / Ключевые технологии:**  
-Python, Pandas, SQL, Telegram Bot API  
-
-[![Telegram](https://img.shields.io/badge/Telegram-Contact-26A5E4?style=flat&logo=telegram)](https://t.me/alfablen)  
-[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?style=flat&logo=github)](https://github.com/alfablend)  
+📍 Санкт-Петербург (гибрид / удалённо)  
+📬 [@alfablen](https://t.me/alfablen) | 📧 vadim@email.ru  
+🔗 [GitHub](https://github.com/alfablend) | [Хабр](https://habr.com/ru/users/alfablend/) | [Публикации в «ДП»](https://www.dp.ru/tag/vadim-kuzmitskij)
 
 ---
 
-## 🔥 **Problem Solved / Решение проблем:**  
-Automation of urban data collection and analysis / 
-Автоматизация сбора и анализа данных  
+## 🧰 Основной проект: VKPMONBOT
 
-**Key Features / Основные функции:**  
-- API data parsing / Парсинг данных через API   
-- Data cleaning and transformation (Pandas) / Очистка и трансформация данных  
-- Statistics visualization on the map (Geopandas/ Folium) / Визуализация статистики на карте
-- Telegram notification bot / Telegram-бот для уведомлений  
+Система автоматического мониторинга градостроительной документации Петербурга  
+→ [Репозиторий vkpmonbot](https://github.com/alfablend/vkpmonbot)
 
----
+**Что делает:**
+- Следит за разрешениями на строительство, градпланами, согласованиями и экспертизами
+- Парсит HTML/PDF, извлекает текст и изображения
+- Отображает результаты на карте OpenStreetMap
+- Отправляет уведомления через Telegram-бота
+- Обеспечивает веб-интерфейс и поддержку подписок по типу документа
 
-## 🛠 Tech Stack / Технологический стек  
-| Component / Компонент | Technologies / Технологии |
-|-----------------------|---------------------------|
-| **Data Extraction**<br>**Извлечение данных** | Python (requests/Selenium), Rosreestr2Coords API |PyPDF2, OpenCV, OCRmyPDF
-| **Data Transformation**<br>**Трансформация данных** | Pandas, Regex, GPT4All python API |
-| **Data Loading**<br>**Загрузка данных** | SQLite, CSV/Excel |
-| **Automation**<br>**Автоматизация** | Telegram Bot API |
-| **Analysis**<br>**Анализ** | Geopandas |
+**Технологии:** Python, Flask, BeautifulSoup, PyPDF2, OCRmyPDF, SQLite, rosreestr2coord, telebot, cron, threading
 
 ---
 
-## 📊 Demonstration / Демонстрация  
-### 1. ETL Pipeline: Government Permits Monitoring  
+## 🧠 AI-парсер судебных решений
 
+Анализ арбитражных дел через локальную LLM (GPT4All)  
+→ [Репозиторий spbmon → ветка arbitr](https://github.com/alfablend/spbmon)
 
-```python
-import sqlite3
-import requests
-from time import sleep
+**Что делает:**
+- Получает PDF-решения из Kontur.Focus  
+- Отбирает дела по Петербургу  
+- Использует GPT4All для генерации краткого пересказа (истец, ответчик, суть, итог)  
+- Сохраняет в CSV и исключает повторы
 
-# Config
-DB_NAME = "permits.db"
-API_URL = "https://api.example.com/permits"
-HEADERS = {...} 
+**Технологии:** requests, BeautifulSoup4, PyPDF2, GPT4All, Pandas, SQLite
 
-def init_db():
-    """Initialize database with index for fast lookups"""
-    conn = sqlite3.connect(DB_NAME)
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS permits (
-            id TEXT PRIMARY KEY,
-            stored_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        );
-    """)
-    return conn
+---
 
-def process_permits(conn):
-    """Fetch new permits and store unique ones"""
-    response = requests.post(API_URL, headers=HEADERS)
-    for permit in response.json():
-        if not conn.execute("SELECT 1 FROM permits WHERE id=?", (permit['id'],)).fetchone():
-            conn.execute("INSERT INTO permits (id) VALUES (?)", (permit['id'],))
-            print(f"New permit: {permit['id']}")
-            sleep(5)  # Polite delay
+## 📌 Кейсы прикладной аналитики (публикации)
 
-# Usage
-if __name__ == "__main__":
-    db = init_db()
-    process_permits(db)
-    db.commit()
+🎬 **Кино в Петербурге:** где и что снимают (130 проектов, 850 локаций)  
+→ [Читать](https://www.dp.ru/a/2024/07/23/po-zakonam-zhanra-bolee-sotni)
+
+🛣️ **Трасса М–7:** какие дома попадут под снос  
+→ [Читать](https://www.dp.ru/a/2024/09/17/proekt-trassi-m7-cherez-udelnij)
+
+🏬 **Магазины с алкоголем в жилом фонде**  
+→ [Читать](https://www.dp.ru/a/2024/06/25/chislo-magazinov-s-alkogolem)
+
+🧽 **Трекинг коммунальной техники (WebSocket)**  
+→ [Читать](https://www.dp.ru/a/2025/03/31/litri-na-kilometri-kak-chistjat)
+
+📄 **20 000 HTML-отчётов по капремонту**  
+→ [Хабр](https://habr.com/ru/articles/891704/)
+
+📎 [Полный список из 17+ кейсов со ссылками](#📌-кейсы-анализа-городских-данных)
+
+---
+
+## 💼 Другие проекты
+
+- [`alfablend.github.io`](https://github.com/alfablend/alfablend.github.io): визуализации, карты
+
+---
+
+## 🛠 Технологический стек
+
+| Компонент         | Технологии                                                                 |
+|-------------------|----------------------------------------------------------------------------|
+| Backend           | Flask, SQLite, cron, threading, logging                                    |
+| Парсинг и OCR     | BeautifulSoup4, PyPDF2, OCRmyPDF, Regex                                    |
+| AI/LLM            | GPT4All (saiga_yandexgpt_8b.gguf)                                           |
+| Обработка данных  | Pandas, Geopandas, osmnx, Pyrosm                                            |
+| Визуализация      | Folium, matplotlib, rosreestr2coord                                         |
+| Интеграции        | Telegram Bot API, Kontur.Focus, DaData, API КГА                            |
+| Инфраструктура    | Docker, REST, cron, WebSocket                                               |
+
+---
+
+## 📌 Кейсы анализа городских данных
+
+1. [Градпланы и реконструкция центра](https://www.dp.ru/a/2025/06/17/v-centre-peterburga-potencialno)  
+2. [Уличные часы Петербурга](https://www.dp.ru/a/2025/06/12/simvoli-vremeni-peterburg)  
+3. [Отключения горячей воды](https://www.dp.ru/a/2025/06/10/suhoj-zakon-kakie-doma-v)  
+4. [Изъятие под ВСМ](https://www.dp.ru/a/2025/06/02/vnimaniju-vstrechajushhih-v-peterburge)  
+5. [Аварийные балконы](https://www.dp.ru/a/2025/05/21/opasnost-svishe-tisjachi-starih)  
+6. [Причалы и швартовки](https://www.dp.ru/a/2025/04/29/prichali-upetropavlovki-i)  
+7. [Анализ нового ПЗЗ](https://www.dp.ru/a/2025/04/19/iskazhaet-sredu-v-centre)  
+8. [Товарные знаки компаний](https://www.dp.ru/a/2025/04/15/v-peterburge-chashhe-vsego-registrirujut)  
+9. [Трекинг техники (WebSocket)](https://www.dp.ru/a/2025/03/31/litri-na-kilometri-kak-chistjat)  
+10. [Капремонт — 20 000 HTML-отчётов](https://www.dp.ru/a/2025/03/17/bolshuju-chast-dolgov-za-kapremont)  
+11. [Безымянные дороги в OSM и реестре](https://www.dp.ru/a/2024/12/12/v-peterburge-nashlos-bolee)  
+12. [Магистраль М–7 и дома](https://www.dp.ru/a/2024/09/17/proekt-trassi-m7-cherez-udelnij)  
+13. [Разорванные улицы](https://www.dp.ru/a/2024/09/03/razdeljaj-ivlastvuj-v-peterburge)  
+14. [Парки у воды](https://www.dp.ru/a/2024/08/28/plivjom-po-techeniju-plan-beglova)  
+15. [Повторные перекрытия дорог](https://www.dp.ru/a/2024/08/06/ot-remonta-do-remonta-kakie)  
+16. [Где снимают фильмы](https://www.dp.ru/a/2024/07/23/po-zakonam-zhanra-bolee-sotni)  
+17. [Алкоголь в жилом фонде](https://www.dp.ru/a/2024/06/25/chislo-magazinov-s-alkogolem)
+
+---
+
+## 🎯 Цель
+
+Хочу развиваться как Python backend или Data Engineer: API, интеграции, обработка текстов и пространственных данных, визуализация, автоматизация. Уверенно работаю с неструктурированными источниками и превращаю данные в результат — будь то Telegram-бот, карта или CSV. Открыт к интересным задачам и развитию в команде.
+
+📬 [@alfablen](https://t.me/alfablen) | 📧 vadim@email.ru
