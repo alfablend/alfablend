@@ -4,7 +4,7 @@
 
 📍 Санкт-Петербург (гибрид / удалённо)  
 📬 [@alfablen](https://t.me/alfablen) | 📧 alfablend@gmail.com  
-🔗 [GitHub](https://github.com/alfablend) | [Хабр](https://habr.com/ru/users/alfablend/) | [Публикации в «ДП»](https://www.dp.ru/tag/vadim-kuzmitskij)
+🔗 [GitHub](https://github.com/alfablend) | [Хабр](https://habr.com/ru/users/alfablend/) | [Публикации в «ДП»](https://www.dp.ru/search?skip=0&isTag=false&sortType=2&searchString=%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%20%D0%9A%D1%83%D0%B7%D1%8C%D0%BC%D0%B8%D1%86%D0%BA%D0%B8%D0%B9&isAuthor=true)
 
 ---
 
