@@ -41,6 +41,9 @@
 
 ## 📌 Кейсы прикладной аналитики (публикации)
 
+🧯 **В каких домах Петербурга чаще всего отключают горячую воду:** выгрузка графиков отключений с Теплосети и ТЭК и их анализ 
+→ [Статья](https://www.dp.ru/a/2025/06/10/suhoj-zakon-kakie-doma-v) | [Код на GitHub](https://github.com/alfablend/data-engineering/tree/main/hot_water_outages)
+
 🎬 **Кино в Петербурге:** где и что снимают (130 проектов, 850 локаций)  
 → [Читать](https://www.dp.ru/a/2024/07/23/po-zakonam-zhanra-bolee-sotni)
 
@@ -84,21 +87,20 @@
 
 1. [Градпланы и реконструкция центра](https://www.dp.ru/a/2025/06/17/v-centre-peterburga-potencialno)  
 2. [Уличные часы Петербурга](https://www.dp.ru/a/2025/06/12/simvoli-vremeni-peterburg)  
-3. [Отключения горячей воды](https://www.dp.ru/a/2025/06/10/suhoj-zakon-kakie-doma-v)  
-4. [Изъятие под ВСМ](https://www.dp.ru/a/2025/06/02/vnimaniju-vstrechajushhih-v-peterburge)  
-5. [Аварийные балконы](https://www.dp.ru/a/2025/05/21/opasnost-svishe-tisjachi-starih)  
-6. [Причалы и швартовки](https://www.dp.ru/a/2025/04/29/prichali-upetropavlovki-i)  
-7. [Анализ нового ПЗЗ](https://www.dp.ru/a/2025/04/19/iskazhaet-sredu-v-centre)  
-8. [Товарные знаки компаний](https://www.dp.ru/a/2025/04/15/v-peterburge-chashhe-vsego-registrirujut)  
-9. [Трекинг техники (WebSocket)](https://www.dp.ru/a/2025/03/31/litri-na-kilometri-kak-chistjat)  
-10. [Капремонт — 20 000 HTML-отчётов](https://www.dp.ru/a/2025/03/17/bolshuju-chast-dolgov-za-kapremont)  
-11. [Безымянные дороги в OSM и реестре](https://www.dp.ru/a/2024/12/12/v-peterburge-nashlos-bolee)  
-12. [Магистраль М–7 и дома](https://www.dp.ru/a/2024/09/17/proekt-trassi-m7-cherez-udelnij)  
-13. [Разорванные улицы](https://www.dp.ru/a/2024/09/03/razdeljaj-ivlastvuj-v-peterburge)  
-14. [Парки у воды](https://www.dp.ru/a/2024/08/28/plivjom-po-techeniju-plan-beglova)  
-15. [Повторные перекрытия дорог](https://www.dp.ru/a/2024/08/06/ot-remonta-do-remonta-kakie)  
-16. [Где снимают фильмы](https://www.dp.ru/a/2024/07/23/po-zakonam-zhanra-bolee-sotni)  
-17. [Алкоголь в жилом фонде](https://www.dp.ru/a/2024/06/25/chislo-magazinov-s-alkogolem)
+3. [Изъятие под ВСМ](https://www.dp.ru/a/2025/06/02/vnimaniju-vstrechajushhih-v-peterburge)  
+4. [Аварийные балконы](https://www.dp.ru/a/2025/05/21/opasnost-svishe-tisjachi-starih)  
+5. [Причалы и швартовки](https://www.dp.ru/a/2025/04/29/prichali-upetropavlovki-i)  
+6. [Анализ нового ПЗЗ](https://www.dp.ru/a/2025/04/19/iskazhaet-sredu-v-centre 
+7. [Товарные знаки компаний](https://www.dp.ru/a/2025/04/15/v-peterburge-chashhe-vsego-registrirujut)  
+8. [Трекинг техники (WebSocket)](https://www.dp.ru/a/2025/03/31/litri-na-kilometri-kak-chistjat)  
+9. [Капремонт — 20 000 HTML-отчётов](https://www.dp.ru/a/2025/03/17/bolshuju-chast-dolgov-za-kapremont)  
+10. [Безымянные дороги в OSM и реестре](https://www.dp.ru/a/2024/12/12/v-peterburge-nashlos-bolee)  
+11. [Магистраль М–7 и дома](https://www.dp.ru/a/2024/09/17/proekt-trassi-m7-cherez-udelnij)  
+12. [Разорванные улицы](https://www.dp.ru/a/2024/09/03/razdeljaj-ivlastvuj-v-peterburge)  
+13. [Парки у воды](https://www.dp.ru/a/2024/08/28/plivjom-po-techeniju-plan-beglova)  
+14. [Повторные перекрытия дорог](https://www.dp.ru/a/2024/08/06/ot-remonta-do-remonta-kakie)  
+15. [Где снимают фильмы](https://www.dp.ru/a/2024/07/23/po-zakonam-zhanra-bolee-sotni)  
+16. [Алкоголь в жилом фонде](https://www.dp.ru/a/2024/06/25/chislo-magazinov-s-alkogolem)
 
 ---
 
