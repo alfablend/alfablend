@@ -5,7 +5,7 @@
 
 🏙️ [ИИ-мониторинг градостроительной документации и судебных решений (GPT4All API, BeautifulSoup, PyPDF, ocrmypdf)](https://github.com/alfablend/spbmon/tree/main)
 
-🏙️ [LEGACY vkpmonbot urban monitoring system / LEGACY vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
+🏙️ [vkpmonbot urban monitoring system / vkpmonbot — система мониторинга градостроительной документации Петербурга (Flask, BeautifulSoup, PyPDF, ocrmypdf, rosreestr2coord, telebot,...)](https://github.com/alfablend/vkpmonbot/tree/main).
 
 📊 [Проекты визуализации данных](https://github.com/alfablend/alfablend.github.io).
 
