@@ -103,7 +103,7 @@
 | Обработка данных  | Pandas, Geopandas, osmnx, Pyrosm                                            |
 | Визуализация      | Folium, matplotlib, rosreestr2coord                                         |
 | Интеграции        | Telegram Bot API, Kontur.Focus, DaData, API КГА                            |
-| 🛰️ Мониторинг сайтов | `changedetection.io` (инициировал поддержку Jinja2-переменных в POST — [PR](https://github.com/dgtlmoon/changedetection.io/pull/2740)) |
+| 🛰️ Мониторинг сайтов | `changedetection.io` (инициировал поддержку Jinja2-переменных в POST — [issue](https://github.com/dgtlmoon/changedetection.io/issues/2502)) |
 | Инфраструктура    | Docker, REST, cron, WebSocket                                               |
 
 > Используется, например, для мониторинга сайта [Госстройнадзора СПб](https://gosstroynadzor.gov.spb.ru), где обновления зависят от параметров текущей даты в теле запроса.
